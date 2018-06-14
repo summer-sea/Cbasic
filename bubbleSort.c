@@ -34,7 +34,7 @@ bubble_sort(int arr[],int n){
     int i,j;
     for( i =0;i<n;i++) {
         // j<n-i-1 减一是到n的时候防止数组越界。减i是最小的已经在前面
-                // 不需要再比较一次
+                //  不需要再比较一次
                 //直接从下一个开始
         for (j = 0; j < n - i - 1; j++) {
             if (arr[j] > arr[j + 1])
